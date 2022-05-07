@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".view.BesinDetayiFragment">
+
+        <ImageView
+            android:id="@+id/foodImageView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/ic_launcher_background"></ImageView>
+
+        <TextView
+            android:id="@+id/foodText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/foodImageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginBottom="7dp"
+            android:text="Food Name"
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/calorieText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/foodText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginBottom="7dp"
+            android:text="Food  Calorie"
+            android:textSize="20sp"></TextView>
+
+        <TextView
+            android:id="@+id/karbonhidratText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/calorieText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginBottom="7dp"
+            android:text="Food Karbonidrat"
+            android:textSize="20sp"></TextView>
+
+        <TextView
+            android:id="@+id/proteinText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/karbonhidratText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginBottom="7dp"
+            android:text="Food Protein"
+            android:textSize="20sp"></TextView>
+        <TextView
+            android:id="@+id/yagText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/proteinText"
+            android:text="Food Yag"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="7dp"></TextView>
+
+
+
+
+    </RelativeLayout>
+</layout>
